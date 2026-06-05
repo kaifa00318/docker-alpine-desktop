@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 如果外部运行没有传入分辨率和密码，则使用默认值
-RESOLUTION=${RESOLUTION:-"1280x720x24"}
+RESOLUTION=${RESOLUTION:-"1920x1080x24"}
 VNC_PASSWORD=${VNC_PASSWORD:-"alpine"}
 
 echo "1. 正在启动 Xvfb 虚拟显示屏 (Display :1)..."
